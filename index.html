@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lokendra Thapa - Agricultural Engineer Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">🌾 Lokendra Thapa</div>
+                <ul class="nav-links">
+                    <li><a onclick="showPage('home')">Home</a></li>
+                    <li><a onclick="showPage('about')">About</a></li>
+                    <li><a onclick="showPage('experience')">Experience</a></li>
+                    <li><a onclick="showPage('blog')">Blog</a></li>
+                    <li><a onclick="showPage('contact')">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- HOME PAGE -->
+    <div id="home" class="page active">
+        <div class="hero">
+            <div class="container">
+                <h1>Lokendra Thapa</h1>
+                <p class="subtitle">Agricultural Engineer</p>
+                <p>Passionate about Digital Agriculture & Precision Farming Technologies | Making Real Impact at Farmers' Level</p>
+                <div class="contact-info">
+                    <a href="mailto:076bag026@ioepc.edu.np">📧 076bag026@ioepc.edu.np</a>
+                    <a href="tel:+9779848030593">📱 +977-9848030593</a>
+                    <a href="https://linkedin.com/in/lokendra-thapa" target="_blank">🌐 LinkedIn</a>
+                </div>
+                <a class="btn" onclick="showPage('experience')">View My Work</a>
+            </div>
+        </div>
+
+        <section class="section">
+            <div class="container">
+                <h2 class="section-title">Technical Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <h3>🗺️ GIS & CAD Tools</h3>
+                        <ul>
+                            <li>ArcGIS</li>
+                            <li>Google Earth Engine (GEE)</li>
+                            <li>AutoCAD</li>
+                            <li>SketchUp</li>
+                        </ul>
+                    </div>
+                    <div class="skill-card">
+                        <h3>💻 Programming & Data Science</h3>
+                        <ul>
+                            <li>Python</li>
+                            <li>Pandas, NumPy</li>
+                            <li>Scikit-learn</li>
+                            <li>PostgreSQL</li>
+                        </ul>
+                    </div>
+                    <div class="skill-card">
+                        <h3>📊 Data Visualization</h3>
+                        <ul>
+                            <li>Plotly</li>
+                            <li>Matplotlib</li>
+                            <li>Seaborn</li>
+                            <li>Excel</li>
+                        </ul>
+                    </div>
+                    <div class="skill-card">
+                        <h3>🎨 Design & Professional</h3>
+                        <ul>
+                            <li>Figma (UI/UX)</li>
+                            <li>Leadership</li>
+                            <li>Technical Writing</li>
+                            <li>Time Management</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- ABOUT PAGE -->
+    <div id="about" class="page">
+        <section class="section">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-content">
+                    <p>An enthusiastic and dedicated Agricultural Engineering graduate from Tribhuvan University, Nepal, with a strong academic foundation in crop science, soil and water management, GIS and remote sensing, farm mechanization, and sustainable agriculture.</p>
+
+                    <p>I am passionate about exploring <strong>digital agriculture</strong> and <strong>precision farming technologies</strong> to make a real impact at the <strong>farmers' level</strong>. Always open to opportunities to <strong>gain hands-on experience</strong>, enhance practical understanding of modern agricultural systems, and contribute to innovative solutions that improve <strong>farm productivity, resource efficiency, and rural livelihoods</strong>.</p>
+
+                    <h2>Education</h2>
+                    <div class="education-box">
+                        <h3>B.E. in Agricultural Engineering</h3>
+                        <p><strong>Tribhuvan University</strong><br>
+                        IOE Eastern Region Campus, Dharan, Nepal<br>
+                        <strong>Graduated:</strong> June 2024</p>
+                        <p style="color: #E0A881; font-weight: bold;">🏆 IOE Merit-based Scholarship Recipient</p>
+                    </div>
+
+                    <h2>Professional Focus</h2>
+                    <p>My work focuses on leveraging technology to solve agricultural challenges in Nepal. I specialize in:</p>
+                    <ul style="margin-left: 2rem; line-height: 2;">
+                        <li><strong>Digital Agriculture:</strong> Developing agro-advisory systems and data-driven solutions</li>
+                        <li><strong>Precision Farming:</strong> Implementing GIS and remote sensing for smart agriculture</li>
+                        <li><strong>Irrigation Systems:</strong> Designing efficient greenhouse, drip, and sprinkler systems</li>
+                        <li><strong>Data Analytics:</strong> Market analysis and forecasting for agricultural decision-making</li>
+                    </ul>
+
+                    <h2>Vision</h2>
+                    <p>I am eager to learn from professionals, apply technical knowledge in real-world settings, and grow as a future agricultural innovator. My goal is to bridge the gap between advanced agricultural technology and practical implementation at the farmer's level in Nepal.</p>
+
+                    <h2>Leadership & Community</h2>
+                    <p>Beyond technical work, I have served as <strong>Vice Secretary</strong> of the Nepal Agricultural Engineering Students' Society (NAESS) and contributed to organizing technical events like DELTA 2.0, Nepal's first technical festival.</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- EXPERIENCE PAGE -->
+    <div id="experience" class="page">
+        <section class="section">
+            <div class="container">
+                <h2 class="section-title">Professional Experience</h2>
+                <div class="experience-timeline">
+                    <div class="experience-item">
+                        <h3>Agriculture Engineer (Full-Time)</h3>
+                        <div class="company">Real Time Solution Pvt. Ltd., Lalitpur, Nepal</div>
+                        <div class="duration">November 2024 - Present</div>
+                        <ul>
+                            <li>Researched and drafted a framework for an <strong>Agro-Advisory System</strong>, providing timely, location-specific recommendations on irrigation, fertilization, pest control, and harvesting</li>
+                            <li>Performed <strong>Nepalese Agricultural Market Price Analysis</strong> using time-series data to forecast trends and guide market decisions</li>
+                            <li>Developed logic and built <strong>interactive dashboards for Spraying Period Forecasts</strong> using Plotly, by calling API that provides 7-day forecasted weather data</li>
+                            <li>Conducted a <strong>feasibility study for automated tunnel farming</strong>, analyzing climate control systems, resource efficiency, and economic viability</li>
+                            <li>Designed a <strong>location-specific Crop Calendar system</strong> by integrating weather data and soil conditions, enabling generation of tailored crop schedules and listing all viable crops for a selected area</li>
+                        </ul>
+                    </div>
+
+                    <div class="experience-item">
+                        <h3>Intern Agricultural Engineer</h3>
+                        <div class="company">G-Seven Agriculture Pvt. Ltd., Lalitpur, Nepal</div>
+                        <div class="duration">May 2024 - June 2024</div>
+                        <ul>
+                            <li>Assisted in designing, estimating, and costing various <strong>greenhouse</strong>, <strong>drip</strong>, and <strong>sprinkler irrigation systems</strong></li>
+                            <li>Gained practical field experience through <strong>site supervision</strong> and project implementation assistance</li>
+                        </ul>
+                    </div>
+
+                    <div class="experience-item">
+                        <h3>Vice Secretary</h3>
+                        <div class="company">Nepal Agricultural Engineering Students' Society (NAESS)</div>
+                        <div class="duration">Academic Year 2021-2022</div>
+                        <ul>
+                            <li>Led organizational activities and coordinated student initiatives in agricultural engineering</li>
+                            <li>Served as <strong>Event Team Member</strong> for Multimedia Exhibition at Nepal's First Technical Festival "DELTA 2.0"</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- BLOG LISTING PAGE -->
+    <div id="blog" class="page">
+        <section class="section">
+            <div class="container">
+                <h2 class="section-title">Blog & Insights</h2>
+                <div class="blog-grid">
+                    <div class="blog-card" onclick="showBlogPost(1)">
+                        <div class="blog-img">🌐</div>
+                        <div class="blog-content">
+                            <h3>Digital Agriculture in Nepal: Opportunities and Challenges</h3>
+                            <div class="blog-meta">January 2026 • 6 min read</div>
+                            <p>Exploring how digital agriculture technologies can transform farming practices in Nepal and the barriers we need to overcome...</p>
+                        </div>
+                    </div>
+                    <div class="blog-card" onclick="showBlogPost(2)">
+                        <div class="blog-img">💧</div>
+                        <div class="blog-content">
+                            <h3>Designing Efficient Irrigation Systems for Nepalese Terrain</h3>
+                            <div class="blog-meta">December 2025 • 7 min read</div>
+                            <p>A practical guide to implementing drip and sprinkler irrigation systems in Nepal's diverse topography...</p>
+                        </div>
+                    </div>
+                    <div class="blog-card" onclick="showBlogPost(3)">
+                        <div class="blog-img">📊</div>
+                        <div class="blog-content">
+                            <h3>Agricultural Market Price Forecasting Using Python</h3>
+                            <div class="blog-meta">December 2025 • 8 min read</div>
+                            <p>How time-series analysis and machine learning can help farmers make better market decisions...</p>
+                        </div>
+                    </div>
+                    <div class="blog-card" onclick="showBlogPost(4)">
+                        <div class="blog-img">🗺️</div>
+                        <div class="blog-content">
+                            <h3>GIS and Remote Sensing in Precision Farming</h3>
+                            <div class="blog-meta">November 2025 • 7 min read</div>
+                            <p>Understanding how GIS tools like ArcGIS and Google Earth Engine revolutionize agricultural planning...</p>
+                        </div>
+                    </div>
+                    <div class="blog-card" onclick="showBlogPost(5)">
+                        <div class="blog-img">🏡</div>
+                        <div class="blog-content">
+                            <h3>Automated Tunnel Farming: The Future of Protected Cultivation</h3>
+                            <div class="blog-meta">November 2025 • 6 min read</div>
+                            <p>Analyzing the feasibility and benefits of automated climate control systems in tunnel farming...</p>
+                        </div>
+                    </div>
+                    <div class="blog-card" onclick="showBlogPost(6)">
+                        <div class="blog-img">📅</div>
+                        <div class="blog-content">
+                            <h3>Building Location-Specific Crop Calendars</h3>
+                            <div class="blog-meta">October 2025 • 5 min read</div>
+                            <p>How integrating weather data and soil conditions creates personalized farming schedules...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- INDIVIDUAL BLOG POST PAGE -->
+    <div id="blog-post" class="page">
+        <section class="section">
+            <div class="container">
+                <a class="back-btn" onclick="showPage('blog')">← Back to Blog</a>
+                <div class="blog-post" id="blog-post-content">
+                    <!-- Blog post content will be inserted here dynamically -->
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- CONTACT PAGE -->
+    <div id="contact" class="page">
+        <section class="section">
+            <div class="container">
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="contact-form">
+                    <p style="text-align: center; margin-bottom: 2rem; color: #666;">
+                        I'm always open to discussing new opportunities, collaborations, or agricultural projects. Feel free to reach out!
+                    </p>
+                    <form onsubmit="handleSubmit(event)">
+                        <div class="form-group">
+                            <label>Name</label>
+                            <input type="text" required placeholder="Your name">
+                        </div>
+                        <div class="form-group">
+                            <label>Email</label>
+                            <input type="email" required placeholder="your.email@example.com">
+                        </div>
+                        <div class="form-group">
+                            <label>Subject</label>
+                            <input type="text" required placeholder="What's this about?">
+                        </div>
+                        <div class="form-group">
+                            <label>Message</label>
+                            <textarea required placeholder="Tell me about your project or inquiry..."></textarea>
+                        </div>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                    <div style="margin-top: 2rem; text-align: center; color: #666;">
+                        <p><strong>Or reach me directly:</strong></p>
+                        <p>📧 <a href="mailto:076bag026@ioepc.edu.np" style="color: #E0A881;">076bag026@ioepc.edu.np</a></p>
+                        <p>📱 +977-9848030593</p>
+                        <p>🌐 <a href="https://linkedin.com/in/lokendra-thapa" target="_blank" style="color: #E0A881;">linkedin.com/in/lokendra-thapa</a></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Lokendra Thapa - Agricultural Engineer | Passionate about Digital Agriculture & Precision Farming</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
