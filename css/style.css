@@ -1,0 +1,201 @@
+/* ===============================
+   BASE STYLES
+================================ */
+
+/* ===== CSS RESET ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ===== GLOBAL BODY STYLES ===== */
+body {
+    font-family: var(--font-primary);
+    background-color: var(--color-bg);
+    color: var(--color-text-primary);
+    line-height: 1.6;
+}
+
+/* ===== LINKS ===== */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* ===== IMAGES ===== */
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/* ===============================
+   LAYOUT
+================================ */
+
+.section {
+    padding: var(--space-xl) var(--space-md);
+}
+
+.section h2 {
+    font-family: var(--font-secondary);
+    font-size: var(--text-2xl);
+    color: var(--color-primary);
+    margin-bottom: var(--space-md);
+}
+
+/* Center content */
+.section > * {
+    max-width: var(--max-width);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* ===============================
+   NAVBAR
+================================ */
+
+header {
+    background-color: var(--color-bg-alt);
+    border-bottom: 1px solid var(--color-border);
+}
+
+.navbar {
+    max-width: var(--max-width);
+    margin: auto;
+    padding: var(--space-md);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo h1 {
+    font-family: var(--font-secondary);
+    color: var(--color-primary);
+    font-size: var(--text-lg);
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: var(--space-lg);
+}
+
+.nav-links a {
+    font-size: var(--text-sm);
+    color: var(--color-text-secondary);
+    transition: color var(--transition-fast);
+}
+
+.nav-links a:hover {
+    color: var(--color-primary);
+}
+
+/* ===============================
+   HERO SECTION
+================================ */
+
+.hero {
+    text-align: center;
+    background: linear-gradient(
+        135deg,
+        var(--color-bg),
+        #e8f5e9
+    );
+}
+
+.hero h2 {
+    font-size: var(--text-3xl);
+}
+
+.hero span {
+    color: var(--color-secondary);
+}
+
+.hero p {
+    max-width: 700px;
+    margin: var(--space-md) auto;
+    color: var(--color-text-secondary);
+}
+
+.hero-buttons {
+    margin-top: var(--space-lg);
+    display: flex;
+    justify-content: center;
+    gap: var(--space-md);
+}
+
+/* ===============================
+   BUTTONS
+================================ */
+
+.btn {
+    padding: var(--space-sm) var(--space-lg);
+    border-radius: var(--radius-md);
+    background-color: var(--color-primary);
+    color: white;
+    font-size: var(--text-sm);
+    transition: background-color var(--transition-fast);
+}
+
+.btn:hover {
+    background-color: #256628;
+}
+
+.btn.secondary {
+    background-color: transparent;
+    border: 1px solid var(--color-primary);
+    color: var(--color-primary);
+}
+
+.btn.secondary:hover {
+    background-color: var(--color-primary);
+    color: white;
+}
+
+/* ===============================
+   FOOTER
+================================ */
+
+footer {
+    text-align: center;
+    padding: var(--space-md);
+    background-color: var(--color-bg-alt);
+    border-top: 1px solid var(--color-border);
+    font-size: var(--text-sm);
+    color: var(--color-text-secondary);
+}
+
+
+
+/* ===============================
+   TYPOGRAPHY POLISH
+================================ */
+
+/* Headings */
+h1, h2, h3 {
+    font-family: var(--font-secondary);
+    letter-spacing: -0.5px;
+}
+
+/* Hero heading */
+.hero h2 {
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+/* Section headings */
+.section h2 {
+    font-weight: 600;
+}
+
+/* Paragraphs */
+p {
+    font-size: var(--text-base);
+    color: var(--color-text-secondary);
+}
+
+/* Small text */
+footer p {
+    font-size: var(--text-sm);
+}

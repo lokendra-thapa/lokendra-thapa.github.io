@@ -1,0 +1,56 @@
+
+
+:root {
+    /* ===== COLORS ===== */
+
+    /* Primary Colors */
+    --color-primary: #2e7d32;        /* Agriculture Green */
+    --color-secondary: #1565c0;      /* Data Science Blue */
+
+    /* Accent Colors */
+    --color-accent: #81c784;         /* Soft Green */
+    --color-earth: #8d6e63;          /* Soil Brown */
+
+    /* Backgrounds */
+    --color-bg: #f9fdf9;             /* Light Natural Background */
+    --color-bg-alt: #ffffff;
+
+    /* Text Colors */
+    --color-text-primary: #1f2933;   /* Dark readable text */
+    --color-text-secondary: #4b5563; /* Muted text */
+
+    /* Borders & Shadows */
+    --color-border: #e5e7eb;
+    --color-shadow: rgba(0, 0, 0, 0.08);
+
+    /* ===== TYPOGRAPHY ===== */
+
+    --font-primary: 'Inter', sans-serif;
+    --font-secondary: 'Poppins', sans-serif;
+
+    /* ===== FONT SIZES ===== */
+    --text-xs: 0.75rem;
+    --text-sm: 0.875rem;
+    --text-base: 1rem;
+    --text-lg: 1.25rem;
+    --text-xl: 1.75rem;
+    --text-2xl: 2.25rem;
+    --text-3xl: 3rem;
+
+    /* ===== SPACING ===== */
+    --space-xs: 0.25rem;
+    --space-sm: 0.5rem;
+    --space-md: 1rem;
+    --space-lg: 2rem;
+    --space-xl: 4rem;
+
+    /* ===== LAYOUT ===== */
+    --max-width: 1100px;
+    --radius-sm: 6px;
+    --radius-md: 12px;
+    --radius-lg: 20px;
+
+    /* ===== TRANSITIONS ===== */
+    --transition-fast: 0.2s ease-in-out;
+    --transition-normal: 0.4s ease;
+}
