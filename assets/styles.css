@@ -419,3 +419,19 @@ footer {
         gap: 0.5rem;
     }
 }
+
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* Makes it circular */
+    object-fit: cover;
+    border: 4px solid #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+
+/* Optional: Add hover effect */
+.profile-photo:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
