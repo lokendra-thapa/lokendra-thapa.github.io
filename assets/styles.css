@@ -428,7 +428,7 @@ footer {
     border: 4px solid #fff;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
     margin-bottom: 20px;
-    flex-shrink: 0;   /* VERY IMPORTANT
+    flex-shrink: 0;   /* VERY IMPORTANT*/
     display: block; 
 }
 
